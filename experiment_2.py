@@ -498,7 +498,6 @@ class Digger(RobotBase):
         tStatic = time.time()
         while len(navigator_1.mine_done) != self.num_of_mines:
 
-            print(len(navigator_1.mine_done))
             if self.count == self.num_of_mines:
                 self.phase = 3
                 self.state_finish()
